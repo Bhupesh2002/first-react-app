@@ -1,0 +1,60 @@
+.container{
+  min-height: 80vh;
+  width: 30%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.header,.footer{
+  margin-bottom: 10px;
+  text-align: center;
+  height: 50px;
+  background-color: blue;
+  color: white;
+
+}
+
+.content{
+  background-color: darkcyan;
+  color: white;
+  height: 70vh;
+}
+
+.content ul{
+  list-style: none;
+}
+
+.item svg{
+  outline: none;
+  color: lightgreen;  
+  margin-left: 5px;
+}
+
+.item svg:hover{
+  color: darkgoldenrod;
+  transition: 1s;
+}
+
+.adding-container{
+  padding: 10px;
+  text-align: center;
+}
+
+.adding-container button{
+  background-color: darkkhaki;
+  width: 10%;
+}
+
+.checkbox-container{
+  margin-left: 100px;
+}
+
+.checkbox-container .edit-color{
+  color: darkorange;
+}
+
+.checkbox-container .edit-color:hover{
+  color: white;
+}
